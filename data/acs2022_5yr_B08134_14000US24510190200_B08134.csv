@@ -1,0 +1,13 @@
+B08134,Means of Transportation to Work by Travel Time to Work,,,,,,,,,,,,,
+,"Census Tract 1501, Baltimore, MD","Census Tract 1502, Baltimore, MD","Census Tract 1503, Baltimore, MD","Census Tract 1602, Baltimore, MD","Census Tract 1603, Baltimore, MD","Census Tract 1604, Baltimore, MD","Census Tract 1605, Baltimore, MD","Census Tract 1902, Baltimore, MD","Census Tract 1903, Baltimore, MD","Census Tract 2001, Baltimore, MD","Census Tract 2002, Baltimore, MD","Census Tract 2003, Baltimore, MD","Census Tract 2004, Baltimore, MD","Census Tract 2005, Baltimore, MD"
+"Car, truck, or van:",463,338,245,512,124,299,707,423,267,227,384,180,203,471
+Drove alone:,376,310,245,510,108,239,685,341,197,212,376,159,182,449
+Carpooled:,87,28,0,2,16,60,22,82,70,15,8,21,21,22
+In 2-person carpool:,25,14,0,2,0,60,22,82,70,15,8,21,21,22
+In 3-or-more-person carpool:,62,14,0,0,16,0,0,0,0,0,0,0,0,0
+Public transportation (excluding taxicab):,224,256,193,122,16,56,284,326,191,176,93,72,114,69
+Bus:,188,190,186,122,16,48,277,302,191,176,75,72,108,69
+"Subway or elevated rail, Light rail, streetcar, or trolley (carro público in Puerto Rico):",36,66,7,0,0,3,0,15,0,0,18,0,6,0
+Long-distance train or commuter rail or Ferryboat:,0,0,0,0,0,5,7,9,0,0,0,0,0,0
+Walked:,0,9,0,0,58,11,2,137,19,0,53,5,17,76
+"Taxicab, motorcycle, bicycle, or other means:",0,15,0,0,19,26,72,54,9,5,0,55,26,225
