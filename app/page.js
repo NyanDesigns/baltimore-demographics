@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import {
   Bar,
@@ -263,7 +264,7 @@ export default function BaltimoreDemographicsDashboard() {
     );
 
     return (
-      <div className="p-6 mb-8 bg-gray-100 rounded-lg shadow-md">
+      <div className="p-6 bg-gray-100 rounded-lg shadow-md">
         <h3 className="mb-4 text-xl font-semibold text-black">Data Summary</h3>
         <p className="mb-2 text-black">
           <strong>User Group:</strong> {selectedGroup.name}
@@ -302,8 +303,8 @@ export default function BaltimoreDemographicsDashboard() {
       </nav>
       <main className="container p-6 mx-auto">
         <p className="mb-8 text-lg text-black">
-          Source demographics data from the 2022 American Community Survey for Selected
-          Baltimore City Census Tracts.
+          Source demographics data from the 2022 American Community Survey for
+          Selected Baltimore City Census Tracts.
         </p>
 
         <div className="sticky top-0 z-10 flex flex-col p-4 mb-8 bg-white rounded-lg shadow-md">
@@ -408,11 +409,24 @@ export default function BaltimoreDemographicsDashboard() {
           </div>
         ) : (
           <>
-            {getDataSummary()}
+            <div className="flex flex-wrap justify-between">
+              <div className="flex">{getDataSummary()}</div>
+              <div className="flex-1 max-w-[300px] flex items-center justify-center">
+                <Image
+                  className="relative my-3 max-w-[300px]"
+                  src="https://i.ibb.co/LttswgT/image.png"
+                  alt="logo"
+                  unoptimized
+                  width={100}
+                  height={100}
+                  style={{ width: "auto", height: "auto" }}
+                  priority
+                />
+              </div>
+            </div>
             <div className="p-6 mb-8 bg-white rounded-lg shadow-md">
               {renderChart()}
             </div>
-
             <div className="p-6 bg-white rounded-lg shadow-md">
               <h2 className="mb-4 text-2xl font-bold text-black">
                 Data Table
