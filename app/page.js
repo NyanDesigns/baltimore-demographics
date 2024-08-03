@@ -40,34 +40,40 @@ const userGroups = [
   },
   {
     name: "2. Community Service Users",
-    datasets: ["B17020", "B18101", "B14001", "B23025"],
+    datasets: ["B01001", "B17020", "B18101", "B14001", "B23025"],
     description:
       "Community group participants, Healthcare seekers, Low-income individuals and families",
   },
   {
-    name: "3. Recreational Users",
+    name: "3. Educational Users",
+    datasets: ["B14001", "B15003", "B23025"],
+    description:
+      "People with disabilities, Immigrants and non-native English speakers",
+  },
+  {
+    name: "4. Recreational Users",
     datasets: ["B01001", "B02001", "B19001"],
     description:
       "Park and green space visitors, Fitness enthusiasts, Cultural event attendees",
   },
   {
-    name: "4. Transit Users",
+    name: "5. Transit Users",
     datasets: ["B08303", "B08134", "C24010"],
     description: "Public transportation users, Pedestrians, Cyclists",
   },
   {
-    name: "5. Economic Users",
+    name: "6. Commercial Users",
     datasets: ["B17020", "B19001", "B23025"],
     description: "Shoppers and retail customers, Visitors and tourists",
   },
   {
-    name: "6. Workforce",
+    name: "7. Workforce",
     datasets: ["B23025", "C24010", "B15003"],
     description:
       "Commuters, Workers (local and from surrounding areas), Job seekers, Small business owners and entrepreneurs",
   },
   {
-    name: "7. Special Populations",
+    name: "8. Special Populations",
     datasets: ["B01001", "B02001", "B18101"],
     description:
       "People with disabilities, Immigrants and non-native English speakers",
@@ -409,7 +415,7 @@ export default function BaltimoreDemographicsDashboard() {
           </div>
         ) : (
           <>
-            <div className="flex flex-wrap justify-between">
+            <div className="flex flex-wrap justify-between mb-8">
               <div className="flex">{getDataSummary()}</div>
               <div className="flex-1 max-w-[300px] flex items-center justify-center">
                 <Image
