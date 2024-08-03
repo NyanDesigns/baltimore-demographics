@@ -307,7 +307,7 @@ export default function BaltimoreDemographicsDashboard() {
           Selected Baltimore City Census Tracts.
         </p>
 
-        <div className="sticky top-0 z-10 flex flex-col p-4 mb-8 bg-white rounded-lg shadow-md">
+        <div className="flex flex-col p-4 mb-8 bg-white rounded-lg shadow-md ">
           <h1 className="mb-5 text-2xl font-bold text-black">User Groups</h1>
           <div className="flex flex-wrap items-center gap-4 mb-4">
             {userGroups.map((group) => (
